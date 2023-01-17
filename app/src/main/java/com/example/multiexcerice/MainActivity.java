@@ -3,6 +3,7 @@ package com.example.multiexcerice;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -22,6 +23,17 @@ public class MainActivity extends AppCompatActivity {
         btn_afficher=findViewById(R.id.btn_afficher);
         btn_quitter=findViewById(R.id.bnt_quitter);
         ed_number=findViewById(R.id.ed_number);
-
+        btn_renitializer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+              ed_number.setText("");
+            }
+        });
+        btn_quitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               finish();
+            }
+        });
     }
 }
