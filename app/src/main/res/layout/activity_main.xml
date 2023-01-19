@@ -55,16 +55,16 @@
         app:layout_constraintVertical_bias="0.931" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="84dp"
-        android:layout_height="242dp"
-        android:text="\? * 0 = ?\n\? * 1 = ?\n\? * 2 = ?\n\? * 3 = ?\n\? * 4 = ?\n? * 5 = ? \n\? * 6 = ?\n? * 7 = ? \n\? * 8 = ?\n\? * 9 = ?\n\? * 10 = ?"
+        android:id="@+id/tv_result"
+        android:layout_width="117dp"
+        android:layout_height="286dp"
+        android:text=""
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_afficher"
-        app:layout_constraintVertical_bias="0.237" />
+        app:layout_constraintVertical_bias="0.278" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
