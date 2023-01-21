@@ -1,8 +1,8 @@
 ### <h1> Table de multiplication</h1> 
 
-cette application ```Android``` est conçue pour vous permettre d'apprendre  ***la table de multiplicatin .
+cette application ```Android``` est conçue pour vous permettre d'apprendre  ***la table de multiplicatin .*** 
 
-*** Fonctionnalités: 
+Fonctionnalités: 
 
 - [x] Affichage de la table de multiplication du nombre saisi. 
 - [ ] Mode "Test": Génération des opérations(de multiplication)aléatoires dont il faut déduire le résulatat. 
